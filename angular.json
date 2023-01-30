@@ -106,7 +106,10 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/megaten-fusion-tool/"
+          }
         }
       }
     }
