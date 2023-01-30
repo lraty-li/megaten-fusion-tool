@@ -26,7 +26,7 @@ import { FusionTrio } from '../models';
       <td>{{ trio.minPrice }}</td>
       <td>{{ trio.demon.race }}</td>
       <td>{{ trio.demon.currLvl }}</td>
-      <td><a routerLink="{{ baseUrl }}/{{ trio.demon.name }}">{{ trio.demon.name }}</a></td>
+      <td><a routerLink="{{ baseUrl }}/{{ trio.demon.name }}">{{ trio.demon.name | translate}}</a></td>
       <td colspan="6" [style.color]="'#666'">{{ trio.fusions.length }} recipes hidden</td>
     </tr>
     <ng-container *ngIf="showing">
@@ -42,12 +42,12 @@ import { FusionTrio } from '../models';
         <td>{{ recipe.price }}</td>
         <td>{{ trio.demon.race }}</td>
         <td>{{ trio.demon.currLvl }}</td>
-        <td><a routerLink="{{ baseUrl }}/{{ trio.demon.name }}">{{ trio.demon.name }}</a></td>
+        <td><a routerLink="{{ baseUrl }}/{{ trio.demon.name }}">{{ trio.demon.name | translate }}</a></td>
         <ng-container *ngFor="let demon of [ recipe.d1, recipe.d2, recipe.d3 ]">
           <ng-container *ngIf="trio.demon !== demon">
             <td>{{ demon.race }}</td>
             <td>{{ demon.currLvl }}</td>
-            <td><a routerLink="{{ baseUrl }}/{{ demon.name }}">{{ demon.name }}</a></td>
+            <td><a routerLink="{{ baseUrl }}/{{ demon.name }}">{{ demon.name | translate}}</a></td>
           </ng-container>
         </ng-container>
       </tr>

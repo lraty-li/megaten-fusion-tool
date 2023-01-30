@@ -11,13 +11,15 @@ import { SkillListContainerComponent } from './components/skill-list.component';
 import { DemonEntryComponent, DemonEntryContainerComponent } from './components/demon-entry.component';
 import { EnemyEntryComponent } from './components/enemy-entry.component';
 import { RecipeGeneratorContainerComponent } from './components/recipe-generator.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   imports: [
     CommonModule,
     SharedModule,
     SharedCompendiumModule,
-    CompendiumRoutingModule
+    CompendiumRoutingModule,
+    TranslateModule
   ],
   declarations: [
     CompendiumComponent,

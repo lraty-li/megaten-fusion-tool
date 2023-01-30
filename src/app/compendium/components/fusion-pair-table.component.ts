@@ -12,10 +12,10 @@ import { CompendiumConfig, FusionPair } from '../models';
     <td class="price">{{ data.price }}</td>
     <td>{{ data.race1 }}</td>
     <td>{{ data.lvl1 | lvlToNumber }}</td>
-    <td><a routerLink="{{ leftBaseUrl }}/{{ data.name1 }}">{{ data.name1 }}</a></td>
+    <td><a routerLink="{{ leftBaseUrl }}/{{ data.name1 }}">{{ data.name1 | translate }}</a></td>
     <td>{{ data.race2 }}</td>
     <td>{{ data.lvl2 | lvlToNumber }}</td>
-    <td><a routerLink="{{ rightBaseUrl }}/{{ data.name2 }}">{{ data.name2 }}</a></td>
+    <td><a routerLink="{{ rightBaseUrl }}/{{ data.name2 }}">{{ data.name2 | translate }}</a></td>
   `
 })
 export class FusionPairTableRowComponent {

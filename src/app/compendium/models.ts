@@ -28,6 +28,7 @@ export interface Demon {
   drop?: string;
   isEnemy?: boolean;
   align?: string;
+  zhHansName?: string;
 }
 
 export interface Skill {

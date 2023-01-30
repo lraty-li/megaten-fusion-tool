@@ -16,7 +16,7 @@ import { DemonListComponent } from '../bases/demon-list.component';
         <option *ngFor="let _ of currRange; let i = index" [value]="i + currOffset">{{ i + currOffset }}</option>
       </select>
     </td>
-    <td><a routerLink="{{ data.name }}">{{ data.name }}</a></td>
+    <td><a routerLink="{{ data.name }}">{{ data.name | translate }}</a></td>
     <td *ngIf="hasInherits"><div class="element-icon i{{ data.inherits }}">{{ data.inherits }}</div></td>
     <td *ngFor="let stat of data.stats">{{ stat }}</td>
     <ng-container *ngIf="langEn">

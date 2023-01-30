@@ -17,7 +17,7 @@ import { FusionEntry } from '../models';
           <td>{{ data.price }}</td>
           <td>{{ data.race1 }}</td>
           <td>{{ data.lvl1 | lvlToNumber }}</td>
-          <td><a routerLink="{{ baseUrl }}/{{ data.name1 }}">{{ data.name1 }}</a></td>
+          <td><a routerLink="{{ baseUrl }}/{{ data.name1 }}">{{ data.name1 | translate }}</a></td>
         </tr>
       </tbody>
     </table>

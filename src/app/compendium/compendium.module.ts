@@ -53,13 +53,15 @@ import {
   ReslvlToStringJaPipe,
   RoundInheritPercentPipe
 } from './pipes';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   imports: [
     CommonModule,
     RouterModule,
     ReactiveFormsModule,
-    SharedModule
+    SharedModule,
+    TranslateModule
   ],
   declarations: [
     DemonMissingComponent,
