@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1675090587102,
+  "timestamp": 1675091327951,
   "index": "/megaten-fusion-tool/index.html",
   "assetGroups": [
     {
@@ -159,7 +159,7 @@
         "/megaten-fusion-tool/assets/js/qrcode.js",
         "/megaten-fusion-tool/main.f0e8b0d652105e431c81.js",
         "/megaten-fusion-tool/polyfills.ee9d206d9d9c35a6f573.js",
-        "/megaten-fusion-tool/runtime.543321cb66f55e4c3a24.js",
+        "/megaten-fusion-tool/runtime.7a74b81668b700ee9461.js",
         "/megaten-fusion-tool/scripts.c583118897b2d1adba56.js"
       ],
       "patterns": []
@@ -299,11 +299,11 @@
     "/megaten-fusion-tool/assets/images/smtsj/win.png": "78136652838633960459d5a42d92ed3ea7e6a7b0",
     "/megaten-fusion-tool/assets/js/qrcode.js": "e46406c8f34f12eb1c062604b8ad068c399a590e",
     "/megaten-fusion-tool/favicon.ico": "1a1062591cf7d4391c54dcb20602dfe8fd5ce887",
-    "/megaten-fusion-tool/index.html": "d5ac7f5d9c9847161bab847d3cb6ddb85d7247cf",
+    "/megaten-fusion-tool/index.html": "55f8aee7213ca306bcd01deb70ba15d5f3e16252",
     "/megaten-fusion-tool/main.f0e8b0d652105e431c81.js": "b7b55d9c21fb2bd00852f3147790275c4207e002",
     "/megaten-fusion-tool/manifest.webmanifest": "c707abd290ff56889eddff19d846a72c68691a59",
     "/megaten-fusion-tool/polyfills.ee9d206d9d9c35a6f573.js": "37d51d38388180903019c5488ef9fcdfe2fa9092",
-    "/megaten-fusion-tool/runtime.543321cb66f55e4c3a24.js": "c3d94ab2a6f0c4cb916097ace9ba8b21919fabac",
+    "/megaten-fusion-tool/runtime.7a74b81668b700ee9461.js": "174eeabc04637d79a122bb23f5e803092baf5363",
     "/megaten-fusion-tool/scripts.c583118897b2d1adba56.js": "06543b6a112a4a72aba1c6f896c7d44341c29c4b",
     "/megaten-fusion-tool/styles.31d6cfe0d16ae931b73c.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
