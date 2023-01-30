@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1675087134937,
+  "timestamp": 1675087797199,
   "index": "/megaten-fusion-tool/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,6 @@
       "urls": [
         "/megaten-fusion-tool/favicon.ico",
         "/megaten-fusion-tool/index.html",
-        "/megaten-fusion-tool/main.f0e8b0d652105e431c81.js",
         "/megaten-fusion-tool/manifest.webmanifest",
         "/megaten-fusion-tool/styles.31d6cfe0d16ae931b73c.css"
       ],
@@ -158,6 +157,7 @@
         "/megaten-fusion-tool/assets/images/smtsj/sup.png",
         "/megaten-fusion-tool/assets/images/smtsj/win.png",
         "/megaten-fusion-tool/assets/js/qrcode.js",
+        "/megaten-fusion-tool/main.f0e8b0d652105e431c81.js",
         "/megaten-fusion-tool/polyfills.ee9d206d9d9c35a6f573.js",
         "/megaten-fusion-tool/runtime.543321cb66f55e4c3a24.js",
         "/megaten-fusion-tool/scripts.c583118897b2d1adba56.js"
